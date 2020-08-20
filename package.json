@@ -1,8 +1,8 @@
 {
-  "name": "Prices",
+  "name": "Desktop-Strock-Tracker",
   "version": "1.0.0",
-  "description": "Prices of commodities",
-  "repository": "electron/simple-samples",
+  "description": "yes",
+  "repository": "dkbutxlo/Desktop-Stock-Tracker",
   "main": "app.js",
   "scripts": {
     "start": "electron app.js"

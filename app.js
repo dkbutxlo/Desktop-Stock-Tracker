@@ -16,7 +16,7 @@ app.once('ready', () => {
     // Set the initial width to 400px
     width: 500,
     // Set the initial height to 500px
-    height: 1000,
+    height: 500,
     // Don't show the window until it ready, this prevents any white flickering
     show: false,
     // Don't allow the window to be resized.
@@ -24,7 +24,7 @@ app.once('ready', () => {
     removeMenu: true
   })
 
-  // Menu hiden
+  // Menu verstecken 
   // window.setMenuBarVisibility(false)
 
   // Load a URL in the window to the local index.html path
