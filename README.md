@@ -1,7 +1,7 @@
-# Prices
+# Desktop Stock Tracker
 
 Simple [Electron](http://electronjs.org) application that shows the current
-price of Curevac, BioNTech, and others :) using the STOOQ API. 
+price of Curevac, BioNTech, and others :) using the STOOQ API, weil Trade Republic zu lange dafür braucht. 
 
 
 
