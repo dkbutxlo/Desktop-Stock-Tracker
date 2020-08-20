@@ -13,6 +13,8 @@ price of Curevac, BioNTech, and others :) using the STOOQ API, weil Trade Republ
 - `npm install` to install the application's dependencies
 - `npm start` to start the application
 
+Info: Hot-Reload ist bereits integriert. 
+
 ## Going further
 
 Here are some ideas on how it can be improved using other Electron APIs:
