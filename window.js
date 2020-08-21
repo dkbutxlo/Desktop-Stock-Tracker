@@ -59,11 +59,11 @@ $(() => {
           $(`#${symbol}-change`).text(change)
        
           // mein Gewinn in Curevac? 
-          let cv = "CVAV.US"
-          if (results.data[1][0] === cv) {
-            alert(ja)
-          }
-          console.log(results.data[1][0]);
+          // let cv = "CVAV.US"
+          // if (results.data[1][0] === cv) {
+          //   alert(ja)
+          // }
+          // console.log(results.data[1][0]);
         }
       })
     }
