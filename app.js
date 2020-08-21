@@ -14,9 +14,9 @@ app.once('ready', () => {
   // Create a new window
   window = new BrowserWindow({
     // Set the initial width to 400px
-    width: 500,
+    width: 1000,
     // Set the initial height to 500px
-    height: 500,
+    height: 1000,
     // Don't show the window until it ready, this prevents any white flickering
     show: false,
     // Don't allow the window to be resized.

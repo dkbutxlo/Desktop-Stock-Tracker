@@ -23,7 +23,7 @@ $(() => {
   const stocks = {
     'oil': 'CVAC.US', 
     'gold': 'BNTX.US', 
-    // 'silver': 'AAPL.US' 
+    'silver': 'RDS-A_PE.US' 
   }
 
   // Offizielle EUR Api

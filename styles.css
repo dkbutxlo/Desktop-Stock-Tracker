@@ -17,17 +17,14 @@
 
 html, body, .container-fluid {
   height: 100%;
+  background: #2d2d2d;
+  color: white;
 }
 
-.row {
-  height: 33.33333333%;
-}
+ .row {
+  height: 100%;
+} 
 
-.row > div {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 .price {
   padding-right: 5px;
@@ -53,5 +50,49 @@ html, body, .container-fluid {
   display: none;
 }
 
+
+/* Grid */ 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas: ". . .";
+}
+
+.grid-container > div {
+  justify-content: center;
+  overflow: hidden;
+  height: 150px; 
+  border-radius: 5px;
+}
+
+.grid-container > div > .row {
+  padding: 10px;
+}
+
+@media (max-width:700px) {
+  .grid-container {
+    gap: 5px 5px;
+    grid-template-areas: "." "." ".";
+  }
+}
+
+.gewinn-verlust-indikator {
+  display: flex; 
+  flex-direction: row;
+  padding: 15px;
+  background: #393939; 
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px; 
+  align-items: center;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.15);
+}
+.gewinn-verlust-indikator > div {
+  /* width:25%; */
+  padding-left: 10px;
+  /* text-align: center; */
+}
 
 
