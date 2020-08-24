@@ -52,11 +52,13 @@ $(() => {
             change = `+${change}`
           }
 
+      
+
           let hehe = currentPrice / euro
 
         
           $(`#${symbol}-price`).text(hehe.toLocaleString())
-          $(`#${symbol}-change`).text(change)
+          $(`#${symbol}-change`).text(change + "%")
        
           // mein Gewinn in Curevac? 
           // let cv = "CVAV.US"
@@ -85,3 +87,10 @@ $(() => {
     //     let lstec = ls;
     //     console.log(ls)
     // });
+
+
+    function meinInvestment () {
+
+      let investiert= 1250
+
+    }
